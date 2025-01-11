@@ -6,4 +6,5 @@ A list to add Items
 
 Here is a screenshot of my app:
 
-![App Screenshot](src/assets/Screenshot 2025-01-11 at 5.04.40 PM.png)
+
+![image](https://github.com/user-attachments/assets/0dc09b97-b95a-45ce-a536-53ded0da6799)
