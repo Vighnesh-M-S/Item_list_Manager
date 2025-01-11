@@ -1,0 +1,63 @@
+/* Center the container */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  h1 {
+    background-color: rgb(122, 120, 120); /* Grey background */
+    color: rgb(66, 214, 66); /* Green font color */
+    padding: 10px;
+    width: 100%; /* Full width of the container */
+    text-align: center; /* Center the text */
+    border-radius: 5px; /* Optional: rounded corners */
+  }
+
+  h2 {
+    align-self: flex-start; /* Align the heading to the left */
+    
+    font-size: 20px; /* Font size for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+ /* Style for the input field */
+input {
+    padding: 8px;
+    width: 80%; /* Same width as the button */
+    margin-bottom: 10px; /* Add space between input and button */
+    background-color: lightgray; /* Light grey background */
+    text-align: left; /* Align the text to the left */
+    border: 1px solid #ccc; /* Optional: Add a light border for better visibility */
+    border-radius: 5px; /* Optional: Round the corners */
+}  
+  
+  /* Style for the Add Item button */
+  button {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%; /* Same width as the input field */
+    margin: 10px auto;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Style for the unordered list */
+  ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    width: 80%; /* Same width as the input and button */
+  }
